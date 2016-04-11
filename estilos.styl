@@ -37,8 +37,10 @@ header
 		font-size 3em
 		text-align center
 		.tit-main
+			font-weight 600
 			letter-spacing 22px
 		.sub-tit-main
+			font-weight 400
 			font-size 0.7em
 	.chih
 		text-align center
@@ -143,13 +145,11 @@ header
 		padding 1.5em 0 2em 0
 		max-width 600px
 		p
-			font-family "Montserrat"
-			font-weight 200
 			text-align justify
 			padding 0.5em 1em 0em 3em
 	#about-img
 		float right
-		margin 0 2em 0 0
+		margin 0 2em 0 1.5em
 		max-width 500px
 		img
 			width 100%
@@ -157,7 +157,7 @@ header
 
 
 .trabajo
-	background #101010
+	background rojo
 	padding 1em 0
 	position relative
 	z-index 1
@@ -177,16 +177,33 @@ header
 			text-align center
 			width 70%
 
+
 	#rectores,#transversales
+		.ejes
+			background white
+			color #333
+			display inline-block
+			padding 0.5em 2em
+			text-align right
+			h3
+				font-weight 600
+				font-size 1.2em
+				letter-spacing 0.2em
+		
 		ul
-			// background gold
+			// background teal
+			display flex
+			flex-wrap wrap
+			justify-content space-around
+			max-width 1200px
+			padding 0
+			margin 2em auto
+			list-style-type none
+			overflow hidden
 			li
-				// background verde
-				display inline-block
 				height 200px
-				margin 0 9em 2em 0
+				margin 0 100px
 				text-align center
-				vertical-align top
 				width 200px
 				.proj
 					cursor pointer
@@ -359,14 +376,30 @@ footer
 	body
 		font-size 16px
 				
-		
+	header
+		text-shadow 2px 2px black	
 	#portada
-		background-position 70% 0
+		background-position right
 		text-align center
 		.cop
 			left 8%
 			width 85%
 			
+
+	#about
+		article
+			padding 1em
+			p
+				padding 0
+				
+
+	.compromiso
+		.cont-qbcc
+			.que, .como
+				display block
+				overflow hidden
+				width 100%
+		
 	
 
 @media screen and (max-width: 350px)
