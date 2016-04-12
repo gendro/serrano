@@ -4,10 +4,11 @@ function inicio(){
 
 	// console.log("Hasta aqui todo bien campeón!!!");
 
-	$("a").on("click", function(e){
+	$(".btns-proyectos").on("click", function(e){
 			e.preventDefault();
 		});
-
+var a = $("#peticion");
+	console.log(a);
 
 
 
